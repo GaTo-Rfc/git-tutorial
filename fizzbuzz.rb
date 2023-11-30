@@ -5,4 +5,6 @@ FIZZBUZZ_LENGTH = 100
 
 	ans << "Fizz" if (i % 3).zero?
 	ans << "Buzz" if (i % 5).zero?
+
+	puts ans.empty? ? i : ans
 end
